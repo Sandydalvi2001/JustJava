@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workhard">
+
+    <application
+        android:name=".GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/logo6"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo6"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkHard">
+
+        <activity android:name=".MainActivity"
+            ></activity>
+        <activity android:name=".EndActivity" />
+        <activity android:name=".Deadlifts" />
+        <activity android:name=".PlankLeg" />
+        <activity android:name=".Lunges" />
+        <activity android:name=".Squats" />
+        <activity android:name=".BarbellOverhead" />
+        <activity android:name=".TakeWeights" />
+        <activity android:name=".Diamond" />
+        <activity android:name=".decline" />
+        <activity android:name=".Incline" />
+        <activity android:name=".NormalPushUps" />
+        <activity android:name=".Legs" />
+        <activity android:name=".Shoulder" />
+        <activity android:name=".Biceps" />
+        <activity android:name=".Chest" />
+        <activity android:name=".Exercises" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".MainActivity" -->
+        <!-- android:theme="@style/Theme.WorkHard"> -->
+        <!-- </activity> -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
